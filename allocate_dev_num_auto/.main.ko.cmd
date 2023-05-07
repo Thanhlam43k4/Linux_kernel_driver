@@ -1,0 +1,1 @@
+cmd_/home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/main.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/main.ko /home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/main.o /home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/main.mod.o;  true

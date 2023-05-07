@@ -1,0 +1,1 @@
+cmd_/home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/main.mod := printf '%s\n'   main.o | awk '!x[$$0]++ { print("/home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/"$$0) }' > /home/thanhlam/Linux_kernel_device/allocate_dev_num_auto/main.mod

@@ -1,0 +1,1 @@
+cmd_/home/thanhlam/Linux_kernel_device/hello_word_program/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/thanhlam/Linux_kernel_device/hello_word_program/"$$0) }' > /home/thanhlam/Linux_kernel_device/hello_word_program/hello.mod

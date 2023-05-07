@@ -1,0 +1,1 @@
+cmd_/home/thanhlam/Linux_kernel_device/hello_word_program/Module.symvers := sed 's/ko$$/o/' /home/thanhlam/Linux_kernel_device/hello_word_program/modules.order | scripts/mod/modpost -m -a  -o /home/thanhlam/Linux_kernel_device/hello_word_program/Module.symvers -e -i Module.symvers   -T -

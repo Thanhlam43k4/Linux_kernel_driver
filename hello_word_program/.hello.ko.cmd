@@ -1,0 +1,1 @@
+cmd_/home/thanhlam/Linux_kernel_device/hello_word_program/hello.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/thanhlam/Linux_kernel_device/hello_word_program/hello.ko /home/thanhlam/Linux_kernel_device/hello_word_program/hello.o /home/thanhlam/Linux_kernel_device/hello_word_program/hello.mod.o;  true

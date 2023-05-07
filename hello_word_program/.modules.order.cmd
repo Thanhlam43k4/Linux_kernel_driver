@@ -1,0 +1,1 @@
+cmd_/home/thanhlam/Linux_kernel_device/hello_word_program/modules.order := {   echo /home/thanhlam/Linux_kernel_device/hello_word_program/hello.ko; :; } | awk '!x[$$0]++' - > /home/thanhlam/Linux_kernel_device/hello_word_program/modules.order

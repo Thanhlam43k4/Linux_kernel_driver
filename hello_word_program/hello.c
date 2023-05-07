@@ -3,7 +3,7 @@
 
 #define DRIVER_AUTHOR "Nguyenthanhlam <nguyenthanhlam71204@gmail.com>"
 #define DRIVER_DESC "A sample character device"
-
+#define DRIVER_ADD "hi"
 
 static int __init hello_world_init(void)   //Initialize module
 
